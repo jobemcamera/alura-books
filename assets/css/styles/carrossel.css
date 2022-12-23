@@ -46,7 +46,7 @@
 .card__descricao {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 0.5em;
+    margin-bottom: 1.5em;
 }
 
 .descricao__titulo {
@@ -66,7 +66,6 @@
 .descricao__texto {
     font-size: 14px;
     line-height: 21px;
-    width: 150px;
 }
 
 .card__botoes {
@@ -83,9 +82,12 @@
 }
 
 .botoes__ancora {
+    align-items: center;
     background-color: var(--laranja);
     color: var(--branco);
-    padding: 1em 2.2em;
+    display: flex;
     font-weight: 700;
+    justify-content: center;
+    padding: 1em 2.2em;
     text-decoration: none;
 }
