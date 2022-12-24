@@ -1,0 +1,8 @@
+hr {
+    margin: 0;
+}
+
+.rodape {
+    background-color: var(--fundo-secundario);
+    padding: 1em;
+}
