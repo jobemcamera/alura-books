@@ -69,6 +69,11 @@
     display: none;
 }
 
+/* VISIBILIDADE SOMENTE DESKTOP */
+.container__texto {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     .cabecalho {
         justify-content: space-around;
@@ -118,5 +123,30 @@
 
     .opcoes__botao {
         display: none;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .container__titulo {
+        margin-right: 2em;
+    }
+
+    .opcoes {
+        margin-right: auto;
+    }
+
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .container__texto {
+        display: block;
     }
 }
