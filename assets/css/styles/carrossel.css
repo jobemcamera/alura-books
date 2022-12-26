@@ -154,6 +154,10 @@
     .card {
         width: 60%;
         margin-left: 3em;
+        margin-top: 3em;
     }
 
+    .descricao__titulo {
+        line-height: 30px;
+    }
 }
