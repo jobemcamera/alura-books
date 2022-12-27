@@ -122,6 +122,10 @@
         width: 40%;
         margin: 2em auto;
      }
+
+    .botoes__ancora:hover {
+        background-color: var(--laranja-escuro);
+    }
 }
 
 @media screen and (min-width: 1728px) {
@@ -160,4 +164,5 @@
     .descricao__titulo {
         line-height: 30px;
     }
+
 }
